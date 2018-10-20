@@ -22,7 +22,7 @@ class LINE extends Command {
 
 
     get myBot() {
-        const bot = ['ud296655acef67cbd5e8208e63629f78b','u65224f4e8812136f01b25275a54b5aef','u079e54aa1bd3d8a09fcfad2f041389f4'];
+        const bot = ['u1cab5ef6299af4713353b9843479952d','u22d94aac4e1659eb6f375ffc7cb17a53'];
         return bot; 
     }
 
@@ -158,14 +158,6 @@ class LINE extends Command {
                 this._sendMessage(messages,messages.contentMetadata.mid);
             }
             return;
-        }
-        if(cmd == 'spm' && isAdminOrBot(seq.from)) { // untuk spam invite contoh: spm <mid> kadang masih ngebug
-            for (var i = 0; i < 10000; i++) {
-                this._createGroup(`HELLO YOU`,payload);
-            }
-        }
-         if(cmd == 'leave' && isAdminOrBot(seq.from)) { //untuk left dari group atau spam group contoh left <alfath> 
-            this.leftGroupByName(payload)
         }
 
         if(this.stateUpload.group == messages.to && [1,2,3].includes(messages.contentType)) {
