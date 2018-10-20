@@ -33,10 +33,10 @@ class LineConnect extends LineAPI {
         let expireCH = moment("/Date("+xc+"-0700)/").toString();
         console.info("[*] ChannelToken: "+icH.channelAccessToken);
         console.info("[*] ChannelTokenExpire: "+expireCH+"\n");
-        console.info(`NOTE: Dont forget , put your mid and admin on variable 'myBot' in main.js \n`);
-        console.info(`Regrads Alfathdirk and thx for TCR Team \n`);
-        console.info(`Fixed by Ervan R.F @LD TEAM\n`);
-        console.info(`=======BOT RUNNING======\n`);
+        console.info(`GUNAKAN BOT DENGAN BIJAK\n`);
+        console.info(`ARIFISTIFIK\n`);
+        console.info(`DRAGON PLAY KILLER\n`);
+        console.info(`=============================================`);
         resolve();
       });
     });

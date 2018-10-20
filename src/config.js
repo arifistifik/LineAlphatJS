@@ -36,16 +36,16 @@ const config = {
   LINE_SESSION_NAVER_URL: '/authct/v1/keys/naver',
   LINE_POST_CONTENT_URL: 'https://os.line.naver.jp/talk/m/upload.nhn',
   LINE_POST_CONTENT_URL_2ND: 'https://obs-sg.line-apps.com/talk/m/upload.nhn',
-  //X_LINE_APP: 'IOSIPAD 7.14.0 iPhone OS 10.12.0',
- // X_LINE_APP: 'CHROMEOS 2.1.5  Chrome_OS 1',
+  X_LINE_APP: 'IOSIPAD 8.14.2 iPhone OS 10.12.0',
+  //X_LINE_APP: 'CHROMEOS 2.1.5  Chrome_OS 1',
   ip: '127.0.0.1',
-  version: '2.1.5',
+  version: '10.12.0',
   revision: 0,
   hostname: hostname(),
   platform: whichPlatform,
   EMAIL_REGEX: /[^@]+@[^@]+\.[^@]+/,
   Headers: {
-    'User-Agent':'Line/2.1.5'
+    'User-Agent':'Line/8.14.2'
   }
 };
 
